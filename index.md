@@ -3,8 +3,6 @@ title: Home
 layout: default
 ---
 
-# JournalHub API Documentation
-
 Welcome to the JournalHub API documentation. This comprehensive guide will help you integrate and use the JournalHub API effectively in your applications.
 
 ## Table of Contents
@@ -13,43 +11,52 @@ Welcome to the JournalHub API documentation. This comprehensive guide will help 
    - Overview of the JournalHub API
    - Key features and capabilities
 
-2. [Authentication](/authentication)
+2. [Architecture](/architecture)
+   - Overview of the JournalHub system architecture
+
+3. [Authentication](/authentication)
    - How to authenticate with the API
    - Obtaining and using access tokens
 
-3. [User Management](/user-management)
+4. [User Management](/user-management)
    - Creating and managing user accounts
    - User profile operations
 
-4. [Journal Entries](/journal-entries)
+5. [Journal Entries](/journal-entries)
    - Creating, reading, updating, and deleting journal entries
    - Managing public and private entries
 
-5. [Error Handling](/error-handling)
+6. [API Stats and Statistics](/API-stats)
+   - Monitoring API usage and performance
+
+7. [Error Handling](/error-handling)
    - Common error codes and their meanings
    - Best practices for handling errors
 
-6. [Rate Limiting](/rate-limiting)
+8. [Rate Limiting](/rate-limiting)
    - Understanding rate limits
    - Strategies for staying within limits
 
-7. [Security](/security)
+9. [Security](/security)
    - Security best practices
    - Data protection measures
 
-8. [Examples](/examples)
-   - Real-world usage examples
-   - Common integration scenarios
+10. [Database](/database)
+    - Database design and management
 
-9. [Code Samples](/code-samples)
-   - Sample code in multiple languages
-   - Quick start guides
+11. [Examples](/examples)
+    - Real-world usage examples
+    - Common integration scenarios
 
-10. [Changelog](/changelog)
+12. [Code Samples](/code-samples)
+    - Sample code in multiple languages
+    - Quick start guides
+
+13. [Changelog](/changelog)
     - Version history
     - Recent updates and improvements
 
-11. [Glossary](/glossary)
+14. [Glossary](/glossary)
     - Key terms and definitions
 
 ## Getting Started
@@ -66,3 +73,6 @@ For support or inquiries, please contact:
 - **Phone**: +234 8132619146 (WAT - West Africa Time)
 
 Happy coding!
+
+---
+

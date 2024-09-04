@@ -1,0 +1,49 @@
+# Logs and system files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Jekyll generated files
+_site/
+.jekyll-cache/
+.jekyll-metadata/
+
+# Sass cache
+.sass-cache/
+
+# Bundler dependencies
+/vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.backup
+*.orig
+*.tmp
+*.temp
+
+# GitHub Pages dependencies
+/.github/
+
+# IDE and editor specific files
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Node.js dependencies (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage reports (if any)
+coverage/
+
+# Environment variables
+.env

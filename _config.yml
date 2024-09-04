@@ -3,35 +3,35 @@ description: "Comprehensive documentation for the JournalHub API"
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme
+markdown: kramdown
 
 # Navigation
 nav:
   - title: Introduction
-    url: /introduction/
+    url: /introduction
   - title: Authentication
-    url: /authentication/
+    url: /authentication
   - title: User Management
-    url: /user-management/
+    url: /user-management
   - title: Journal Entries
-    url: /journal-entries/
+    url: /journal-entries
+  - title: API Stats and Statistics
+    url: /API-stats
   - title: Error Handling
-    url: /error-handling/
+    url: /error-handling
   - title: Rate Limiting
-    url: /rate-limiting/
+    url: /rate-limiting
   - title: Security
-    url: /security/
+    url: /security
   - title: Architecture
-    url: /architecture/
+    url: /architecture
   - title: Database
-    url: /database/
+    url: /database
   - title: Examples
-    url: /examples/
+    url: /examples
   - title: Code Samples
-    url: /code-samples/
+    url: /code-samples
   - title: Changelog
-    url: /changelog/
+    url: /changelog
   - title: Glossary
-    url: /glossary/
-
-# Build settings
-markdown: kramdown
+    url: /glossary
