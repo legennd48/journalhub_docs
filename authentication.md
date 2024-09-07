@@ -39,3 +39,6 @@ To authenticate a user and obtain a JWT, send a POST request to the `/api/user/l
 
 ## JWT Security
 JournalHub uses JSON Web Tokens (JWT) for authentication, which provides a secure and stateless mechanism for managing user sessions. However, to maintain the security of your application and users, it's essential to handle these tokens properly.
+
+---
+[Home]({{ site.baseurl }}/)  [Prev - Architecture]({{ site.baseurl }}/architecture)  [Next - user Management]({{ site.baseurl }}/user-management)

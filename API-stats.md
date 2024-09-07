@@ -27,3 +27,4 @@ title: status and statistics
 - **Response**: The total number of entries the user has.
 
 ---
+[Home]({{ site.baseurl }}/)  [Prev - Joournal-Entries]({{ site.baseurl }}/journal-entries)   [Next - Error Handling]({{ site.baseurl }}/error-handling)

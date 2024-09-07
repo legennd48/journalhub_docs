@@ -16,3 +16,4 @@ The JournalHub API is a secure and reliable platform designed to enable users to
 - **Base URL**: `https://journalhub-bay.vercel.app/`
 
 ---
+[Home]({{ site.baseurl }}/) [Next - Architecture]({{ site.baseurl }}/architecture)

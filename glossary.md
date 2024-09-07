@@ -25,3 +25,4 @@ title: Glossary
 - **Joi**: A powerful schema description language and data validator for JavaScript. Joi is used in JournalHub to validate incoming API requests, ensuring that the data meets the expected structure and constraints.
 
 ---
+[Home]({{ site.baseurl }}/)  [Prev - Changelog]({{ site.baseurl }}/changelog)

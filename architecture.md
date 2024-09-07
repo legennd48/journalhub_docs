@@ -32,3 +32,4 @@ Middleware functions are used throughout the application to handle tasks such as
 - **Implementing rate limiting** to protect against abuse.
 
 ---
+[Home]({{ site.baseurl }}/)  [Prev - Introduction]({{ site.baseurl }}/introduction)  [Next - Authentication]({{ site.baseurl }}/authentication)

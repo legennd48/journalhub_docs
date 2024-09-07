@@ -57,3 +57,4 @@ title: Journal Entry Endpoints
 - **Response**: Array of matching journal entries or error message.
 
 ---
+[Home]({{ site.baseurl }}/)  [Prev - User Management]({{ site.baseurl }}/user-management)   [Next - API Stats and Status]({{ site.baseurl }}/API-stats)

@@ -211,3 +211,6 @@ try {
   console.error('Search failed:', error.message);
 }
 ```
+
+---
+[Home]({{ site.baseurl }}/)  [Prev - Examples]({{ site.baseurl }}/examples)   [Next - Changelog]({{ site.baseurl }}/changelog)

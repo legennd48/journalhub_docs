@@ -48,3 +48,6 @@ JournalHub uses JSON Web Tokens (JWT) for authentication, which provides a secur
 ### Conclusion
 
 By following these security practices, you can ensure that JWTs are used securely in your application, protecting your users and their data
+
+---
+[Home]({{ site.baseurl }}/)  [Prev - Rate Limiting]({{ site.baseurl }}/rate-limiting)   [Next - Database]({{ site.baseurl }}/database)

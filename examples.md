@@ -145,3 +145,5 @@ curl -X POST https://journalhub-bay.vercel.app/api/user/login \
 These examples provide a practical overview of how to interact with the JournalHub API using `curl`. it shows the typical workflow for managing users and journal entries.
 
 ---
+
+[Home]({{ site.baseurl }}/)  [Prev - Database]({{ site.baseurl }}/database)   [Next - Code Samples]({{ site.baseurl }}/code-samples)

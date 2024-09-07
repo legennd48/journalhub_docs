@@ -36,3 +36,4 @@ title: User Management Endpoints
 - **Response**: Success message or error details.
 
 ---
+[Home]({{ site.baseurl }}/)  [Prev - Authentication]({{ site.baseurl }}/authentication)   [Next - Journal Entries]({{ site.baseurl }}/journal-entries)

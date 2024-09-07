@@ -49,3 +49,4 @@ If a user exceeds this limit, they will also receive a `429 Too Many Requests` r
 The rate limiting is implemented using middleware (`express-rate-limit`) that tracks the number of requests from each IP address or user. These limits are enforced across all endpoints to ensure consistent and fair usage.
 
 ---
+[Home]({{ site.baseurl }}/)  [Prev - Error Handling]({{ site.baseurl }}/error-handling)   [Next - Security]({{ site.baseurl }}/security)

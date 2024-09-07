@@ -155,3 +155,4 @@ The following are common error responses that the JournalHub API might return. E
   ```
 
 ---
+[Home]({{ site.baseurl }}/)  [Prev - API Stats and Status]({{ site.baseurl }}/API-stats)   [Next - Rate Limiting]({{ site.baseurl }}/rate-limiting)
