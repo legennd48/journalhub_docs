@@ -13,6 +13,6 @@ The JournalHub API is a secure and reliable platform designed to enable users to
 
 ## Base URL
 
-- **Base URL**: `http://localhost:5000/`
+- **Base URL**: `https://journalhub-bay.vercel.app/`
 
 ---

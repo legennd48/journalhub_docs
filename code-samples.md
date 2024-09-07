@@ -12,7 +12,7 @@ This section provides code samples for common operations using the JournalHub AP
 
 ```javascript
 async function registerUser(userData) {
-  const response = await fetch('http://localhost:5000/api/user/register', {
+  const response = await fetch('https://journalhub-bay.vercel.app/api/user/register', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ try {
 
 ```javascript
 async function loginUser(credentials) {
-  const response = await fetch('http://localhost:5000/api/user/login', {
+  const response = await fetch('https://journalhub-bay.vercel.app/api/user/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -83,7 +83,7 @@ try {
 
 ```javascript
 async function createJournalEntry(entryData, token) {
-  const response = await fetch('http://localhost:5000/api/journal-entries', {
+  const response = await fetch('https://journalhub-bay.vercel.app/api/journal-entries', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -120,7 +120,7 @@ try {
 
 ```javascript
 async function getUserJournalEntries(token, page = 1, limit = 10) {
-  const response = await fetch(`http://localhost:5000/api/journal-entries/user?page=${page}&limit=${limit}`, {
+  const response = await fetch(`https://journalhub-bay.vercel.app/api/journal-entries/user?page=${page}&limit=${limit}`, {
     method: 'GET',
     headers: {
       'Authorization': `Bearer ${token}`,
@@ -149,7 +149,7 @@ try {
 
 ```javascript
 async function updateJournalEntry(entryId, updateData, token) {
-  const response = await fetch(`http://localhost:5000/api/journal-entries/${entryId}`, {
+  const response = await fetch(`https://journalhub-bay.vercel.app/api/journal-entries/${entryId}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
@@ -186,7 +186,7 @@ try {
 
 ```javascript
 async function searchJournalEntries(query, token) {
-  const response = await fetch(`http://localhost:5000/api/search/journal-entries?q=${encodeURIComponent(query)}`, {
+  const response = await fetch(`https://journalhub-bay.vercel.app/api/search/journal-entries?q=${encodeURIComponent(query)}`, {
     method: 'GET',
     headers: {
       'Authorization': `Bearer ${token}`,

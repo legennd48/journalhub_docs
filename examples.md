@@ -11,7 +11,7 @@ This section provides detailed examples of how to use the JournalHub API endpoin
 #### Register a New User
 
 ```bash
-curl -X POST http://localhost:5000/api/user/register \
+curl -X POST https://journalhub-bay.vercel.app/api/user/register \
 -H "Content-Type: application/json" \
 -d '{
   "fullName": "John Doe",
@@ -30,7 +30,7 @@ curl -X POST http://localhost:5000/api/user/register \
 #### User Login
 
 ```bash
-curl -X POST http://localhost:5000/api/user/login \
+curl -X POST https://journalhub-bay.vercel.app/api/user/login \
 -H "Content-Type: application/json" \
 -d '{
   "email": "john_doe@example.com",
@@ -49,7 +49,7 @@ curl -X POST http://localhost:5000/api/user/login \
 #### Get User Profile
 
 ```bash
-curl -X GET http://localhost:5000/api/user/profile/ \
+curl -X GET https://journalhub-bay.vercel.app/api/user/profile/ \
 -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 ```
 
@@ -72,7 +72,7 @@ curl -X GET http://localhost:5000/api/user/profile/ \
 #### Update User Profile
 
 ```bash
-curl -X PUT http://localhost:5000/api/user/profile/ \
+curl -X PUT https://journalhub-bay.vercel.app/api/user/profile/ \
 -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
 -H "Content-Type: application/json" \
 -d '{
@@ -93,7 +93,7 @@ curl -X PUT http://localhost:5000/api/user/profile/ \
 #### Create a New Journal Entry
 
 ```bash
-curl -X POST http://localhost:5000/api/journal-entries \
+curl -X POST https://journalhub-bay.vercel.app/api/journal-entries \
 -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
 -H "Content-Type: application/json" \
 -d '{
@@ -122,7 +122,7 @@ curl -X POST http://localhost:5000/api/journal-entries \
 #### Incorrect Password During Login
 
 ```bash
-curl -X POST http://localhost:5000/api/user/login \
+curl -X POST https://journalhub-bay.vercel.app/api/user/login \
 -H "Content-Type: application/json" \
 -d '{
   "email": "john_doe@example.com",
